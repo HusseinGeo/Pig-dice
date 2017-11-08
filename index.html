@@ -8,7 +8,7 @@
         </head>
         <body>
           <h1 class="p">PIG DICE<h1/>
-            <p>RULES:<p/>
+            <p id="r">RULES:<p/>
               <ol>
                 <li>To play you will need 2 to 10 players,one 6-sided dice,and a pencil and some paper for keeping score.</li>
                 <li>If a player rolls a 1,they score nothing and loses all points he/she accumulated that turn,and it becomes the next player's turn.</li>
@@ -19,8 +19,9 @@
 
                 <div id="dice1" class="dice">0</div>
                 <div class="clear"></div>
+                <h2 id="status" style="clear:left;"></h2><br>
+
                 <button onclick="roll()">Roll Dice</button>
-                <h2 id="status" style="clear:left;"></h2>
           <script src="js/jquery-3.2.1.js"></script>
           <script src="js/scripts.js"></script>
         </body>

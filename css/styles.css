@@ -15,12 +15,16 @@
   color: #BA55D3;
   text-align: center;
 }
+#r {
+  font-size: 50px;
+}
 p {
   font-size: 30px;
   color: #FF7F50;
 }
 ol {
   font-size: 25px;
+  color: blue;
 }
 button {
   background: green;
