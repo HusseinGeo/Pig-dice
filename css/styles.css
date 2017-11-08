@@ -2,8 +2,8 @@
   float: left;
   width: 100px;
   height: 100px;
-  background: silver;
-  border: 2px solid red;
+  background: black;
+  border: 2px solid #FF7F50;
   border-radius: 5px;
   padding: 20px;
   font-size: 30px;
@@ -24,10 +24,11 @@ p {
 }
 ol {
   font-size: 25px;
-  color: blue;
+  color: white;
+  font-family: cursive;
 }
 button {
-  background: green;
+  background: gainsboro;
   border: 2px solid black;
   font-size: 20px;
   width: 200px;
@@ -36,4 +37,10 @@ button {
 }
 button:hover {
   background: greenyellow;
+}
+
+body {
+  background-image: url("../img/dice.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
